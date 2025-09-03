@@ -1,0 +1,63 @@
+{
+  "name": "@derbyjs/react-derby",
+  "version": "1.0.0",
+  "description": "Library for using React in a DerbyJS application",
+  "main": "dist/index.js",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "npx tsc",
+    "prepare": "npm run build",
+    "lint": "npx eslint **/*.ts && npx prettier . --check",
+    "lint:fix": "npx eslint --fix **/*.ts && npx prettier . --write",
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/derbyjs/react-derby.git"
+  },
+  "author": "Eric Hwang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/derbyjs/react-derby/issues"
+  },
+  "homepage": "https://github.com/derbyjs/react-derby#readme",
+  "peerDependencies": {
+    "derby": "^4.x",
+    "racer": "^2.x",
+    "react": "^19.x || ^18.x",
+    "react-dom": "^19.x || ^18.x"
+  },
+  "peerDependenciesMeta": {
+    "derby": {
+      "optional": true
+    },
+    "react-dom": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.0",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/eslint": "^9.6.1",
+    "@types/express": "^4.17.23",
+    "@types/node": "^24.3.0",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.8",
+    "@types/sharedb": "^5.1.0",
+    "@vitejs/plugin-react": "^5.0.1",
+    "derby": "^4.2.3",
+    "eslint": "^9.33.0",
+    "eslint-config-prettier": "^10.1.8",
+    "jsdom": "^26.1.0",
+    "prettier": "3.6.2",
+    "racer": "^2.3.1",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.40.0",
+    "vitest": "^3.2.4"
+  }
+}
