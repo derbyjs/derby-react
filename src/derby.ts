@@ -14,7 +14,7 @@ import { type Container, createRoot, type RootOptions } from 'react-dom/client';
  *
  * @example
  * import { Component } from 'derby';
- * import { renderReactComponent } from '@derbyjs/react-derby';
+ * import { renderReactComponent } from '@derbyjs/derby-react';
  *
  * class MyDerbyComponent extends Component {
  *   // This assumes this Derby component's template has an element like:

@@ -1,5 +1,5 @@
 {
-  "name": "@derbyjs/react-derby",
+  "name": "@derbyjs/derby-react",
   "version": "1.0.0",
   "description": "Library for using React in a DerbyJS application",
   "main": "dist/index.js",
@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/derbyjs/react-derby.git"
+    "url": "git://github.com/derbyjs/derby-react.git"
   },
   "author": "Eric Hwang",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/derbyjs/react-derby/issues"
+    "url": "https://github.com/derbyjs/derby-react/issues"
   },
-  "homepage": "https://github.com/derbyjs/react-derby#readme",
+  "homepage": "https://github.com/derbyjs/derby-react#readme",
   "peerDependencies": {
     "derby": "^4.x",
     "racer": "^2.x",

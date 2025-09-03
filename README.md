@@ -1,6 +1,6 @@
-# @derbyjs/react-derby
+# @derbyjs/derby-react
 
-`@derbyjs/react-derby` enables React components to be integrated with DerbyJS apps and/or Racer models:
+`@derbyjs/derby-react` enables React components to be integrated with DerbyJS apps and/or Racer models:
 
 - React component state that's two-way synced with Racer model data
 - Derby helper to render a React component inside a Derby component, with automatic cleanup
@@ -29,13 +29,13 @@ This example uses a Derby component with a directory containing index.html and i
 ```tsx
 // index.tsx
 import { Component } from 'derby';
-import { renderReactComponent, useRacerState } from '@derbyjs/react-derby';
+import { renderReactComponent, useRacerState } from '@derbyjs/derby-react';
 import type { Model } from 'racer';
 
 class ReactDerbyExample extends Component {
   static view = {
     file: __dirname,
-    is: 'react-derby-example',
+    is: 'derby-react-example',
   };
 
   declare reactContainer: HTMLElement;
