@@ -30,7 +30,7 @@ export function renderReactComponent(
   derbyComponent: Component,
   domContainer: Container,
   reactComponent: ReactNode,
-  reactRootOptions: RootOptions,
+  reactRootOptions?: RootOptions,
 ) {
   const reactRoot = createRoot(domContainer, reactRootOptions);
   derbyComponent.on('destroy', () => {
